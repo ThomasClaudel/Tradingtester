@@ -14,7 +14,6 @@ if not mt5.initialize():
     print("initialize() failed")
     mt5.shutdown()
 
-fdgfdg
 def profile(fnc):
     """A decorator that uses cProfile to profile a function"""
 
